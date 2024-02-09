@@ -27,9 +27,11 @@ class Interfaz(gui_uic[0], gui_uic[1]):
         self.area4.clicked.connect(lambda:self.load_prefectures(areas, "Area_4"))
         self.area5.clicked.connect(lambda:self.load_prefectures(areas, "Area_5"))
         self.area6.clicked.connect(lambda:self.load_prefectures(areas, "Area_6"))
+        self.listWidgetIds.setSelectionMode(QAbstractItemView.SingleSelection)
+        self.listWidget.setSelectionMode(QAbstractItemView.NoSelection)
         self.comboBoxPrefectures.currentIndexChanged.connect(lambda:self.load_cities(prefectures))
-        self.comboBoxCities.currentIndexChanged.connect(lambda:self.load_ids(prefectures))
-        self.comboBoxIds.currentIndexChanged.connect(lambda:self.load_info(self.ids))
+        self.listWidgetCities.currentItemChanged.connect(lambda:self.load_ids(prefectures))
+        self.listWidgetIds.currentItemChanged.connect(lambda:self.load_info(self.ids))
         self.gotomap.clicked.connect(lambda:self.openurl(self.url_map))
         self.obtained.clicked.connect(lambda:self.update_obtained(self.selected_id, self.ids))
         self.exit.clicked.connect(lambda:exit())
@@ -48,8 +50,8 @@ class Interfaz(gui_uic[0], gui_uic[1]):
 
     def clear_routine(self):
         self.comboBoxPrefectures.clear()
-        self.comboBoxCities.clear()
-        self.comboBoxIds.clear()
+        self.listWidgetCities.clear()
+        self.listWidgetIds.clear()
         self.listWidget.clear()
         self.obtained.setChecked(False)
         self.imageLid.clear()
@@ -114,7 +116,7 @@ class Interfaz(gui_uic[0], gui_uic[1]):
             
     def load_cities(self, prefectures):
         prefecture = self.comboBoxPrefectures.currentText()
-        self.comboBoxCities.clear()
+        self.listWidgetCities.clear()
         selected_prefecture = prefectures.get(prefecture, {})
         self.cities_list = list()
         for data in selected_prefecture:
@@ -124,30 +126,35 @@ class Interfaz(gui_uic[0], gui_uic[1]):
         self.cities_list.sort()
         self.update_prefecture_progress(self.ids, self.cities_list)
         for city in self.cities_list:
-            self.comboBoxCities.addItem(str(city))
+            self.listWidgetCities.addItem(str(city))
+        self.listWidgetCities.setCurrentRow(0)
     
     def load_ids(self, prefectures):
         prefecture = self.comboBoxPrefectures.currentText()
-        city = self.comboBoxCities.currentText()
-        self.comboBoxIds.clear()
-        selected_prefecture = prefectures.get(prefecture, {})
-        self.id_list = list()
-        for data in selected_prefecture:
-            if (data["city"] == city.capitalize() or data["city"] == city.lower()):
-                self.id_list.append((data["id"]))
-        self.id_list.sort()
-        self.update_city_progress(self.ids, self.id_list)
-        for element in self.id_list:
-            self.comboBoxIds.addItem(element)
+        selected_city = self.listWidgetCities.currentItem()
+        if selected_city is not None:
+            city = selected_city.text()
+            self.listWidgetIds.clear()
+            selected_prefecture = prefectures.get(prefecture, {})
+            self.id_list = list()
+            for data in selected_prefecture:
+                if (data["city"] == city.capitalize() or data["city"] == city.lower()):
+                    self.id_list.append((data["id"]))
+            self.id_list.sort()
+            self.update_city_progress(self.ids, self.id_list)
+            for element in self.id_list:
+                self.listWidgetIds.addItem(element)
+            self.listWidgetIds.setCurrentRow(0)
 
     def load_info(self, ids):
-        self.selected_id = self.comboBoxIds.currentText()
+        selected_item = self.listWidgetIds.currentItem()
+        if selected_item is not None:
+            self.selected_id = selected_item.text()            
         if self.selected_id != "":
             selected_id = ids.get(self.selected_id)
             self.imageLid.setPixmap(QPixmap('images/' + str(selected_id["uid"]) + '.png'))
             self.imageLid.setScaledContents(True)
             self.listWidget.clear()
-            self.listWidget.addItem(QListWidgetItem('Pokemon:'))
             for pkmn in selected_id["pokemon"]:
                 self.listWidget.addItem(QListWidgetItem(str(pkmn).capitalize()))
             self.url_map = str(selected_id["map"])
