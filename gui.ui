@@ -201,7 +201,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>Go to Map!</string>
+     <string>View on Map!</string>
     </property>
    </widget>
    <widget class="QPushButton" name="exit">
@@ -272,7 +272,7 @@
    <widget class="QLabel" name="progressLabelTotal">
     <property name="geometry">
      <rect>
-      <x>380</x>
+      <x>430</x>
       <y>600</y>
       <width>51</width>
       <height>16</height>
@@ -285,7 +285,7 @@
    <widget class="QProgressBar" name="progressBarTotal">
     <property name="geometry">
      <rect>
-      <x>290</x>
+      <x>340</x>
       <y>598</y>
       <width>61</width>
       <height>23</height>
@@ -333,7 +333,7 @@
    <widget class="QLabel" name="progressLabelPrefecture_4">
     <property name="geometry">
      <rect>
-      <x>240</x>
+      <x>290</x>
       <y>600</y>
       <width>71</width>
       <height>16</height>
@@ -434,6 +434,19 @@
      <string>Pokémon:</string>
     </property>
    </widget>
+   <widget class="QPushButton" name="gotogeneralmap">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>550</y>
+      <width>113</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>General Map</string>
+    </property>
+   </widget>
    <zorder>frame</zorder>
    <zorder>map</zorder>
    <zorder>area1</zorder>
@@ -462,6 +475,7 @@
    <zorder>progressLabelPrefecture_5</zorder>
    <zorder>progressLabelPrefecture_6</zorder>
    <zorder>progressLabelPrefecture_7</zorder>
+   <zorder>gotogeneralmap</zorder>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
   <widget class="QMenuBar" name="menuBar">

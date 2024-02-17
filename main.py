@@ -5,6 +5,7 @@ from PyQt5.QtCore import *
 from PyQt5.QtGui import *
 from PyQt5.QtWidgets import *
 import webbrowser
+# import math
 
 #Cargamos el archivo .ui
 gui_uic = uic.loadUiType("gui.ui")
@@ -18,6 +19,7 @@ class Interfaz(gui_uic[0], gui_uic[1]):
         prefectures = json.load(open('database/prefectures.json'))
         self.ids = json.load(open('database/ids.json'))
         self.url_map = ""
+        self.url_general_map = ""
         map = QPixmap('map.png')
         self.map.setPixmap(map)
         self.map.setScaledContents(True)
@@ -33,6 +35,7 @@ class Interfaz(gui_uic[0], gui_uic[1]):
         self.listWidgetCities.currentItemChanged.connect(lambda:self.load_ids(prefectures))
         self.listWidgetIds.currentItemChanged.connect(lambda:self.load_info(self.ids))
         self.gotomap.clicked.connect(lambda:self.openurl(self.url_map))
+        self.gotogeneralmap.clicked.connect(lambda:self.openurl(self.url_general_map))
         self.obtained.clicked.connect(lambda:self.update_obtained(self.selected_id, self.ids))
         self.exit.clicked.connect(lambda:exit())
         self.progressBarTotal.reset()
@@ -117,7 +120,7 @@ class Interfaz(gui_uic[0], gui_uic[1]):
     def load_cities(self, prefectures):
         prefecture = self.comboBoxPrefectures.currentText()
         self.listWidgetCities.clear()
-        selected_prefecture = prefectures.get(prefecture, {})
+        selected_prefecture = prefectures.get(prefecture, {}).get("lids",{})
         self.cities_list = list()
         for data in selected_prefecture:
             new_city = data.get("city", {}).capitalize()
@@ -137,7 +140,8 @@ class Interfaz(gui_uic[0], gui_uic[1]):
             self.listWidgetIds.clear()
             selected_prefecture = prefectures.get(prefecture, {})
             self.id_list = list()
-            for data in selected_prefecture:
+            self.url_general_map = str(selected_prefecture["pmap"])
+            for data in selected_prefecture.get("lids",{}):
                 if (data["city"] == city.capitalize() or data["city"] == city.lower()):
                     self.id_list.append((data["id"]))
             self.id_list.sort()
@@ -178,5 +182,8 @@ class Interfaz(gui_uic[0], gui_uic[1]):
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     principal = Interfaz()
+    # x = math.trunc((QCoreApplication.instance().desktop().screenGeometry().width() - principal.width()) / 2.0)
+    # y = math.trunc((QCoreApplication.instance().desktop().screenGeometry().height() - principal.height()) / 2.0)
+    # principal.setGeometry(x,y,principal.width(),principal.height())
     principal.show()
     sys.exit(app.exec_())
