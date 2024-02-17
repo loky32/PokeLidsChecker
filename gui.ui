@@ -168,7 +168,7 @@
    <widget class="QLabel" name="imageLid">
     <property name="geometry">
      <rect>
-      <x>40</x>
+      <x>50</x>
       <y>420</y>
       <width>161</width>
       <height>161</height>
@@ -181,7 +181,7 @@
    <widget class="QCheckBox" name="obtained">
     <property name="geometry">
      <rect>
-      <x>240</x>
+      <x>260</x>
       <y>550</y>
       <width>81</width>
       <height>31</height>
@@ -194,7 +194,7 @@
    <widget class="QPushButton" name="gotomap">
     <property name="geometry">
      <rect>
-      <x>64</x>
+      <x>130</x>
       <y>590</y>
       <width>113</width>
       <height>32</height>
@@ -207,7 +207,7 @@
    <widget class="QPushButton" name="exit">
     <property name="geometry">
      <rect>
-      <x>550</x>
+      <x>548</x>
       <y>592</y>
       <width>113</width>
       <height>32</height>
@@ -317,7 +317,7 @@
    <widget class="QListWidget" name="listWidget">
     <property name="geometry">
      <rect>
-      <x>450</x>
+      <x>470</x>
       <y>440</y>
       <width>141</width>
       <height>101</height>
@@ -346,7 +346,7 @@
    <widget class="QListWidget" name="listWidgetIds">
     <property name="geometry">
      <rect>
-      <x>380</x>
+      <x>400</x>
       <y>440</y>
       <width>61</width>
       <height>101</height>
@@ -385,7 +385,7 @@
    <widget class="QListWidget" name="listWidgetCities">
     <property name="geometry">
      <rect>
-      <x>240</x>
+      <x>260</x>
       <y>440</y>
       <width>131</width>
       <height>101</height>
@@ -398,7 +398,7 @@
    <widget class="QLabel" name="progressLabelPrefecture_5">
     <property name="geometry">
      <rect>
-      <x>240</x>
+      <x>260</x>
       <y>420</y>
       <width>71</width>
       <height>16</height>
@@ -411,7 +411,7 @@
    <widget class="QLabel" name="progressLabelPrefecture_6">
     <property name="geometry">
      <rect>
-      <x>380</x>
+      <x>400</x>
       <y>420</y>
       <width>71</width>
       <height>16</height>
@@ -424,7 +424,7 @@
    <widget class="QLabel" name="progressLabelPrefecture_7">
     <property name="geometry">
      <rect>
-      <x>450</x>
+      <x>470</x>
       <y>420</y>
       <width>71</width>
       <height>16</height>
@@ -434,17 +434,17 @@
      <string>Pokémon:</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="gotogeneralmap">
+   <widget class="QPushButton" name="gotoprefecturemap">
     <property name="geometry">
      <rect>
-      <x>390</x>
-      <y>550</y>
-      <width>113</width>
+      <x>10</x>
+      <y>590</y>
+      <width>121</width>
       <height>32</height>
      </rect>
     </property>
     <property name="text">
-     <string>General Map</string>
+     <string>Prefecture Map</string>
     </property>
    </widget>
    <zorder>frame</zorder>
@@ -475,7 +475,7 @@
    <zorder>progressLabelPrefecture_5</zorder>
    <zorder>progressLabelPrefecture_6</zorder>
    <zorder>progressLabelPrefecture_7</zorder>
-   <zorder>gotogeneralmap</zorder>
+   <zorder>gotoprefecturemap</zorder>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
   <widget class="QMenuBar" name="menuBar">

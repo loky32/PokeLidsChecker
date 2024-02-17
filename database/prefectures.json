@@ -211,7 +211,7 @@
         "city": "kikonai",
         "uid": "9c50492829220e1aa07a60b268ddfa1e"
       }
-    ], "pmap": "https://www.google.com/maps/d/embed?mid=11ZwUO0PE5Li1CdgtSZ7UBkoBAQxGRk-Q&hl=en&ehbc=2E312F"
+    ], "map": "https://www.google.com/maps/d/embed?mid=11ZwUO0PE5Li1CdgtSZ7UBkoBAQxGRk-Q&hl=en&ehbc=2E312F"
   },
   "Aomori": {
     "lids": [
@@ -225,7 +225,7 @@
         "city": "hachinohe",
         "uid": "980e5418dbdef7582b162d577ad77cf7"
       }
-    ], "pmap": "https://www.google.com/maps/d/embed?mid=1W4gYPrxB_WbWnW6fPFtQhoITrGpFNIBW&hl=en&ehbc=2E312F"
+    ], "map": "https://www.google.com/maps/d/embed?mid=1W4gYPrxB_WbWnW6fPFtQhoITrGpFNIBW&hl=en&ehbc=2E312F"
   },
   "Iwate": {
     "lids": [
@@ -369,7 +369,7 @@
         "city": "Hirono",
         "uid": "03c8da68d0400d4eaf0d9bf03d274f98"
       }
-    ], "pmap": "https://www.google.com/maps/d/embed?mid=1VA6VHd-3AmicGYC931CdrdtyPgmEywYd&hl=en&ehbc=2E312F"
+    ], "map": "https://www.google.com/maps/d/embed?mid=1VA6VHd-3AmicGYC931CdrdtyPgmEywYd&hl=en&ehbc=2E312F"
   },
   "Miyagi": {
     "lids": [
@@ -548,7 +548,7 @@
         "city": "Kesennuma",
         "uid": "196cb20d603ee6eae87932a61344e7e3"
       }
-    ], "pmap": "https://www.google.com/maps/d/embed?mid=16oLdISh_qTKBso_C671HH4RAb4ifdBRV&hl=en&ehbc=2E312F"
+    ], "map": "https://www.google.com/maps/d/embed?mid=16oLdISh_qTKBso_C671HH4RAb4ifdBRV&hl=en&ehbc=2E312F"
   },
   "Akita": {
     "lids": [
@@ -577,7 +577,7 @@
         "city": "akita",
         "uid": "75d7b8121f07fb3655b214e5bc97fd10"
       }
-    ], "pmap": "https://www.google.com/maps/d/embed?mid=1LyuTx36ZObsC0mUbV9P4nnkENHibUco&hl=en&ehbc=2E312F"
+    ], "map": "https://www.google.com/maps/d/embed?mid=1LyuTx36ZObsC0mUbV9P4nnkENHibUco&hl=en&ehbc=2E312F"
   },
   "Fukushima": {
     "lids": [
@@ -711,10 +711,10 @@
         "city": "Shinchi",
         "uid": "3551920549897ca17bd2d417b3461b56"
       }
-    ], "pmap": "https://www.google.com/maps/d/embed?mid=1AYd_0wLtIIVfQmIOj_J10NmN6syV71_L&hl=en&ehbc=2E312F"
+    ], "map": "https://www.google.com/maps/d/embed?mid=1AYd_0wLtIIVfQmIOj_J10NmN6syV71_L&hl=en&ehbc=2E312F"
   },
   "Yamagata": {
-    "lids": [], "pmap": ""
+    "lids": [], "map": ""
   },
   "Tochigi": {
     "lids": [
@@ -733,7 +733,7 @@
         "city": "utsunomiya",
         "uid": "52fdbecd02d60456608847e86f3e8964"
       }
-    ], "pmap": "https://www.google.com/maps/d/embed?mid=1rjQDmSfLk4PJYdVz573OvvOiV_8ck0xG&hl=en&ehbc=2E312F"
+    ], "map": "https://www.google.com/maps/d/embed?mid=1rjQDmSfLk4PJYdVz573OvvOiV_8ck0xG&hl=en&ehbc=2E312F"
   },
   "Saitama": {
     "lids": [
@@ -752,7 +752,7 @@
         "city": "tokorozawa",
         "uid": "f2dfd29ec753fb46d12d81af9736e548"
       }
-    ], "pmap": "https://www.google.com/maps/d/embed?mid=1VfJ23jreW-kvj1wUUd-ID4qCQPiLTRDO&hl=en&ehbc=2E312F"
+    ], "map": "https://www.google.com/maps/d/embed?mid=1VfJ23jreW-kvj1wUUd-ID4qCQPiLTRDO&hl=en&ehbc=2E312F"
   },
   "Chiba": {
     "lids": [
@@ -776,7 +776,7 @@
         "city": "katori",
         "uid": "c9284e72a57917ac1347408c2c48b8a7"
       }
-    ], "pmap": "https://www.google.com/maps/d/embed?mid=1F4Ke3SBog9A5AFD6NYLlHF_Bzcy7YmnI&hl=en&ehbc=2E312F"
+    ], "map": "https://www.google.com/maps/d/embed?mid=1F4Ke3SBog9A5AFD6NYLlHF_Bzcy7YmnI&hl=en&ehbc=2E312F"
   },
   "Tokyo": {
     "lids": [
@@ -840,7 +840,7 @@
         "city": "machida",
         "uid": "4c77c6c7e731ed37ef071ab402d5c1bd"
       }
-    ], "pmap": "https://www.google.com/maps/d/embed?mid=1z8Fw3kWgxcj7Mo1MjeXkq412_2zRW8-V&hl=en&ehbc=2E312F"
+    ], "map": "https://www.google.com/maps/d/embed?mid=1z8Fw3kWgxcj7Mo1MjeXkq412_2zRW8-V&hl=en&ehbc=2E312F"
   },
   "Kanagawa": {
     "lids": [
@@ -869,13 +869,13 @@
         "city": "Yokohama",
         "uid": "dd60987af1dda49a37486a2cbcb4d407"
       }
-    ], "pmap": "https://www.google.com/maps/d/embed?mid=1opNS_5jL4HdJUhTOK7Z5ylbKdza2i-v9&hl=en&ehbc=2E312F"
+    ], "map": "https://www.google.com/maps/d/embed?mid=1opNS_5jL4HdJUhTOK7Z5ylbKdza2i-v9&hl=en&ehbc=2E312F"
   },
   "Ibaraki": {
-    "lids": [], "pmap": ""
+    "lids": [], "map": ""
   },
   "Gunma": {
-    "lids": [], "pmap": ""
+    "lids": [], "map": ""
   },
   "Niigata": {
     "lids": [
@@ -899,7 +899,7 @@
         "city": "ojiya",
         "uid": "cb0b83a72c4a02d3828408438fe69c79"
       }
-    ], "pmap": "https://www.google.com/maps/d/embed?mid=1f9YPKWojR7iQrR3AyEBimiqC0Jjh2y5d&hl=en&ehbc=2E312F"
+    ], "map": "https://www.google.com/maps/d/embed?mid=1f9YPKWojR7iQrR3AyEBimiqC0Jjh2y5d&hl=en&ehbc=2E312F"
   },
   "Toyama": {
     "lids": [
@@ -918,7 +918,7 @@
         "city": "toyama",
         "uid": "6c44395065c204322fb25c9d622810f6"
       }
-    ], "pmap": ""
+    ], "map": ""
   },
   "Ishikawa": {
     "lids": [
@@ -927,7 +927,7 @@
         "city": "kanazawa",
         "uid": "c940415d26bf0831bbc369b7616083e1"
       }
-    ], "pmap": ""
+    ], "map": ""
   },
   "Aichi": {
     "lids": [
@@ -951,22 +951,22 @@
         "city": "toyohashi",
         "uid": "2b38fff3956d1bef47f96d05ce465f6f"
       }
-    ], "pmap": "https://www.google.com/maps/d/u/2/embed?mid=1cN05gSanA6mceKUyLjbWZc_KX4AJ9Oc&ehbc=2E312F"
+    ], "map": "https://www.google.com/maps/d/u/2/embed?mid=1cN05gSanA6mceKUyLjbWZc_KX4AJ9Oc&ehbc=2E312F"
   },
   "Fukui": {
-    "lids": [], "pmap": ""
+    "lids": [], "map": ""
   },
   "Yamanashi": {
-    "lids": [], "pmap": ""
+    "lids": [], "map": ""
   },
   "Nagano": {
-    "lids": [], "pmap": ""
+    "lids": [], "map": ""
   },
   "Gifu": {
-    "lids": [], "pmap": ""
+    "lids": [], "map": ""
   },
   "Shizuoka": {
-    "lids": [], "pmap": ""
+    "lids": [], "map": ""
   },
   "Mie": {
     "lids": [
@@ -1050,7 +1050,7 @@
         "city": "tsu",
         "uid": "ff1d441d552b5c89cd7254c986834349"
       }
-    ], "pmap": "https://www.google.com/maps/d/embed?mid=1C9T6SOkHfbzed3pOeGgDMGyw7WtqoLnR&hl=en&ehbc=2E312F"
+    ], "map": "https://www.google.com/maps/d/embed?mid=1C9T6SOkHfbzed3pOeGgDMGyw7WtqoLnR&hl=en&ehbc=2E312F"
   },
   "Shiga": {
     "lids": [
@@ -1079,7 +1079,7 @@
         "city": "koka",
         "uid": "675edfc1e37d6a294429a9e35ed48504"
       }
-    ], "pmap": "https://www.google.com/maps/d/embed?mid=1sXIpPOgpc2wUb5jZzGLIzXGIzxiEinRF&hl=en&ehbc=2E312F"
+    ], "map": "https://www.google.com/maps/d/embed?mid=1sXIpPOgpc2wUb5jZzGLIzXGIzxiEinRF&hl=en&ehbc=2E312F"
   },
   "Kyoto": {
     "lids": [
@@ -1108,7 +1108,7 @@
         "city": "kyoto",
         "uid": "dadd75c86a5e66bf5392ba13716c2dfe"
       }
-    ], "pmap": "https://www.google.com/maps/d/embed?mid=1ztVhiPYNohCSLzJ5CY_CtHIFzykPUtEF&hl=en&ehbc=2E312F"
+    ], "map": "https://www.google.com/maps/d/embed?mid=1ztVhiPYNohCSLzJ5CY_CtHIFzykPUtEF&hl=en&ehbc=2E312F"
   },
   "Osaka": {
     "lids": [
@@ -1137,7 +1137,7 @@
         "city": "higashiosaka",
         "uid": "8b79e350ab1d04a38f8dffc6baed16e5"
       }
-    ], "pmap": "https://www.google.com/maps/d/embed?mid=1wMmxbrhNDLwF6gp9QqzRbmtdUGYk13tX&hl=en&ehbc=2E312F"
+    ], "map": "https://www.google.com/maps/d/embed?mid=1wMmxbrhNDLwF6gp9QqzRbmtdUGYk13tX&hl=en&ehbc=2E312F"
   },
   "Hyogo": {
     "lids": [
@@ -1156,7 +1156,7 @@
         "city": "awaji",
         "uid": "3b9a7a603fe46a8c9ca44daa6d465c4e"
       }
-    ], "pmap": "https://www.google.com/maps/d/embed?mid=1raBSAAkP_zRkPSwoanZIUbGoiQ5vAITQ&hl=en&ehbc=2E312F"
+    ], "map": "https://www.google.com/maps/d/embed?mid=1raBSAAkP_zRkPSwoanZIUbGoiQ5vAITQ&hl=en&ehbc=2E312F"
   },
   "Nara": {
     "lids": [
@@ -1185,10 +1185,10 @@
         "city": "ikaruga",
         "uid": "8c606a972fea1746e45dea9cf3f87c9e"
       }
-    ], "pmap": "https://www.google.com/maps/d/embed?mid=1p1IgYqCJcUL5a3Zyvi7Z-Hquw6uAo-qc&hl=en&ehbc=2E312F"
+    ], "map": "https://www.google.com/maps/d/embed?mid=1p1IgYqCJcUL5a3Zyvi7Z-Hquw6uAo-qc&hl=en&ehbc=2E312F"
   },
   "Wakayama": {
-    "lids": [], "pmap": ""
+    "lids": [], "map": ""
   },
   "Tottori": {
     "lids": [
@@ -1292,7 +1292,7 @@
         "city": "Tottori",
         "uid": "ff3da633c56590b1692d2cc729807dd8"
       }
-    ], "pmap": "https://www.google.com/maps/d/embed?mid=1Vfht-FsSi92voOuzzPuhieM4SP8IPSGD&hl=en&ehbc=2E312F"
+    ], "map": "https://www.google.com/maps/d/embed?mid=1Vfht-FsSi92voOuzzPuhieM4SP8IPSGD&hl=en&ehbc=2E312F"
   },
   "Okayama": {
     "lids": [
@@ -1316,7 +1316,7 @@
         "city": "kurashiki",
         "uid": "12a7f3eb91387a2de15ce4a4d07b76d9"
       }
-    ], "pmap": "https://www.google.com/maps/d/embed?mid=1unLZlVw0Cch4m100J8mrY6KHn5HVIPra&hl=en&ehbc=2E312F"
+    ], "map": "https://www.google.com/maps/d/embed?mid=1unLZlVw0Cch4m100J8mrY6KHn5HVIPra&hl=en&ehbc=2E312F"
   },
   "Yamaguchi": {
     "lids": [
@@ -1340,7 +1340,7 @@
         "city": "shimonoseki",
         "uid": "45b93f3bf2e0617781b54d098c85e938"
       }
-    ], "pmap": "https://www.google.com/maps/d/embed?mid=1h9deeoW7yvfyFUS-PGBxV4rwsewW6F4&hl=en&ehbc=2E312F"
+    ], "map": "https://www.google.com/maps/d/embed?mid=1h9deeoW7yvfyFUS-PGBxV4rwsewW6F4&hl=en&ehbc=2E312F"
   },
   "Kagawa": {
     "lids": [
@@ -1434,7 +1434,7 @@
         "city": "Takamatsu",
         "uid": "3f8606c250a83239f508571b1484d584"
       }
-    ], "pmap": "https://www.google.com/maps/d/embed?mid=1RwG0gPOQICYoGQBTMcIsqlnkt6dCDIcw&hl=en&ehbc=2E312F"
+    ], "map": "https://www.google.com/maps/d/embed?mid=1RwG0gPOQICYoGQBTMcIsqlnkt6dCDIcw&hl=en&ehbc=2E312F"
   },
   "Ehime": {
     "lids": [
@@ -1448,19 +1448,19 @@
         "city": "Matsuyama",
         "uid": "2c463a2dd4f605a830d338c012f560f1"
       }
-    ], "pmap": "https://www.google.com/maps/d/embed?mid=1YQ_QwBNdRyBrBPEQdImdjsaX_5n-e5A&hl=en&ehbc=2E312F"
+    ], "map": "https://www.google.com/maps/d/embed?mid=1YQ_QwBNdRyBrBPEQdImdjsaX_5n-e5A&hl=en&ehbc=2E312F"
   },
   "Shimane": {
-    "lids": [], "pmap": ""
+    "lids": [], "map": ""
   },
   "Hiroshima": {
-    "lids": [], "pmap": ""
+    "lids": [], "map": ""
   },
   "Tokushima": {
-    "lids": [], "pmap": ""
+    "lids": [], "map": ""
   },
   "Kochi": {
-    "lids": [], "pmap": ""
+    "lids": [], "map": ""
   },
   "Fukuoka": {
     "lids": [
@@ -1504,10 +1504,10 @@
         "city": "kitakyushu",
         "uid": "b13f6216991b853d40f37921b7b1a75c"
       }
-    ], "pmap": "https://www.google.com/maps/d/embed?mid=1vDNWtdOcGqTSyuotU4NLGdUJn8zpZzj7&hl=en&ehbc=2E312F"
+    ], "map": "https://www.google.com/maps/d/embed?mid=1vDNWtdOcGqTSyuotU4NLGdUJn8zpZzj7&hl=en&ehbc=2E312F"
   },
   "Saga": {
-    "lids": [], "pmap": ""
+    "lids": [], "map": ""
   },
   "Miyazaki": {
     "lids": [
@@ -1641,7 +1641,7 @@
         "city": "miyazaki ",
         "uid": "4df805be8a64d2c988d992788be19a9b"
       }
-    ], "pmap": "https://www.google.com/maps/d/embed?mid=12ppVneOXO8SeaoDvZ4NeWYF9eQGuCewy&hl=en&ehbc=2E312F"
+    ], "map": "https://www.google.com/maps/d/embed?mid=12ppVneOXO8SeaoDvZ4NeWYF9eQGuCewy&hl=en&ehbc=2E312F"
   },
   "Kagoshima": {
     "lids": [
@@ -1690,7 +1690,7 @@
         "city": "Ibusuki",
         "uid": "1a0d76db2fb9b2cd5857ad3ee233e054"
       }
-    ], "pmap": "https://www.google.com/maps/d/embed?mid=11higGapNyjsxDhYVH79y_pvyfq_An3fI&hl=en&ehbc=2E312F"
+    ], "map": "https://www.google.com/maps/d/embed?mid=11higGapNyjsxDhYVH79y_pvyfq_An3fI&hl=en&ehbc=2E312F"
   },
   "Okinawa": {
     "lids": [
@@ -1754,15 +1754,15 @@
         "city": "nago",
         "uid": "2fe8dcc15673cdcdbe781d3893d552eb"
       }
-    ], "pmap": "https://www.google.com/maps/d/embed?mid=1PZLnNU_K1Ou8KE9j37gOvO3aPjYAr7ob&hl=en&ehbc=2E312F"
+    ], "map": "https://www.google.com/maps/d/embed?mid=1PZLnNU_K1Ou8KE9j37gOvO3aPjYAr7ob&hl=en&ehbc=2E312F"
   },
   "Nagasaki": {
-    "lids": [], "pmap": ""
+    "lids": [], "map": ""
   },
   "Kumamoto": {
-    "lids": [], "pmap": ""
+    "lids": [], "map": ""
   },
   "Oita": {
-    "lids": [], "pmap": ""
+    "lids": [], "map": ""
   }
 }
