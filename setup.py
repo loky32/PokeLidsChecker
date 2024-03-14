@@ -9,7 +9,7 @@ from setuptools import setup
 
 APP = ['main.py']
 DATA_FILES = ['database', 'images', 'gui.ui', 'manhole_logo_en.png', 'map.png', 'manhole_logo_en.icns']
-OPTIONS = {'packages': ['PyQt5', 'json', 'webbrowser'], 'iconfile':'manhole_logo_en.icns'}
+OPTIONS = {'packages': ['PyQt5', 'sqlite3', 'webbrowser'], 'iconfile':'manhole_logo_en.icns'}
 
 setup(
     app = APP,
